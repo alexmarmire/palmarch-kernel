@@ -1,4 +1,3 @@
-[EN]
 # linux-palmarch 7.2.7-arch1-1
 
 **Stock is a starting point, not a destination.**
