@@ -1,0 +1,6 @@
+build/
+out/
+*.pkg.tar.zst
+*.iso
+tarballs/
+src/linux-*/
