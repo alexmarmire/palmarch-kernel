@@ -46,6 +46,7 @@ _srctag=v${pkgver%.*}-${pkgver##*.}
 source=(
   https://cdn.kernel.org/pub/linux/kernel/v${pkgver%%.*}.x/${_srcname}.tar.{xz,sign}
   $url/releases/download/$_srctag/linux-$_srctag.patch.zst{,.sig}
+  "0001-bore.patch"
 )
 source_x86_64=(config.x86_64)
 validpgpkeys=(
@@ -56,13 +57,15 @@ validpgpkeys=(
 sha256sums=('4ac34c47db2540ffb2713943f8d891ff1702e0ba6934525a493b7d1cad43145a'
             'SKIP'
             '22db40cf8a49b46518223ff78cc5b83377474948a4667ee40cacd3f1d571c609'
-            'SKIP')
-sha256sums_x86_64=('03b341190eeeda2fa80eb3fd4eb2f23605c612bb3b3b8502308b22bde3bb7152')
+            'SKIP'
+            '61b9543e400d6fb38a68ee2276538ae14834bec75d7b06d3e1ac9977174ff619')
+sha256sums_x86_64=('451bb94f4afd98e1ef63aff0e00120b2c63379b9d0f7af4161b32c9326cef56c')
 b2sums=('0fa304e65b0d96d6082e3040db9c974ebdbcfd54a2bc22a8841db63291787f01bf63862d882ecf77cb810f51e91db4e44ac6e27616f93f945531b868b9a1a00d'
         'SKIP'
         '29c08d638cf058e63f3b40d4ccba5dc0d04a51c3f2ad6073d84dd34920f550c2ca7a9dfe11f92c632eb732d0ab76e061770c3659501ac5a40fbff4bd7e052655'
-        'SKIP')
-b2sums_x86_64=('b70a9b80bec8aa71ec09e65aaf7f8949258de172b69405e5fade253795593f2dffd4189025609dd79d24ae8db06d078ee2b80090f120da1626515e8b1f9e70d5')
+        'SKIP'
+        'ab04789b59130618d4adf2631b1c51abf19d210b3a414676dd964df49e192e468cf44f6471585378c1b4b1adc5c99cc9d9b49474cbf64c05fd0d3da3cef33e3f')
+b2sums_x86_64=('4dd44e32639750bf390ae088842f38c29b2113d24065cb0096e818fe76e46747e73b9835919a0065f6cdcb63e0e4ccd5b9a4e511a8d52a8ea26b425a7b3149d8')
 
 # https://www.kernel.org/pub/linux/kernel/v7.x/sha256sums.asc
 

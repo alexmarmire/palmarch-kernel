@@ -18,3 +18,9 @@
 ## История
 - 2026-09-29 — первая успешная сборка ядра 7.2.7-palmarch (пакеты в /var/cache/pacman/pkg)
 - 2026-09-30 — перенос проекта в ~/palmarch-kernel, наведён порядок
+
+## 2026-10-01 — Переход на BORE
+- Отключён sched_ext (`CONFIG_SCHED_CLASS_EXT`), включён BORE (`CONFIG_SCHED_BORE=y`)
+- Наложен патч `patches/0001-bore.patch` (CachyOS mainline BORE для 7.2)
+- `CONFIG_HZ_1000=y`, `CONFIG_MIN_BASE_SLICE_NS=2000000`
+- Сборка: `makepkg -s --noextract`

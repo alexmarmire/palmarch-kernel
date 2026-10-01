@@ -4,3 +4,11 @@ out/
 *.iso
 tarballs/
 src/linux-*/
+
+# Тарболы и крупные исходники — не в git
+*.tar.xz
+*.tar.gz
+*.tar.sign
+*.patch.zst
+*.patch.zst.sig
+config.x86_64
