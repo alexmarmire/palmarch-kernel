@@ -1,7 +1,7 @@
 # Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 
-pkgbase=linux-palmarch 
-pkgver=7.2.7.arch1
+pkgbase=linux-palmarch
+pkgver=7.2.9.arch1
 pkgrel=1
 pkgdesc='Linux'
 url='https://github.com/archlinux/linux'
@@ -54,18 +54,18 @@ validpgpkeys=(
   647F28654894E3BD457199BE38DBBDC86092693E  # Greg Kroah-Hartman
   83BC8889351B5DEBBB68416EB8AC08600F108CDF  # Jan Alexander Steffens (heftig)
 )
-sha256sums=('4ac34c47db2540ffb2713943f8d891ff1702e0ba6934525a493b7d1cad43145a'
+sha256sums=('b4c5dfbe51a364a6c7f03869200f88c8e1f77403539005f14b7fc6bc91b8d8ba'
             'SKIP'
-            '22db40cf8a49b46518223ff78cc5b83377474948a4667ee40cacd3f1d571c609'
+            '95eac21ec3b619945f86b205af0c2dd3eae2d01c79d1bf7da4b180556097ce03'
             'SKIP'
             '61b9543e400d6fb38a68ee2276538ae14834bec75d7b06d3e1ac9977174ff619')
-sha256sums_x86_64=('451bb94f4afd98e1ef63aff0e00120b2c63379b9d0f7af4161b32c9326cef56c')
-b2sums=('0fa304e65b0d96d6082e3040db9c974ebdbcfd54a2bc22a8841db63291787f01bf63862d882ecf77cb810f51e91db4e44ac6e27616f93f945531b868b9a1a00d'
+sha256sums_x86_64=('09ccaefa1df05c060f8fc3941f2109b1c0f7391c682fce96ce8b6a49bbe13ced')
+b2sums=('c853d45f0df3b713a84695c487b56e44d40da007fb48700be4bf0180c6aa15e7f087ac2d52f1cf7997b4de262aeae5094c772f36297405de1c7b8985a420328b'
         'SKIP'
-        '29c08d638cf058e63f3b40d4ccba5dc0d04a51c3f2ad6073d84dd34920f550c2ca7a9dfe11f92c632eb732d0ab76e061770c3659501ac5a40fbff4bd7e052655'
+        '16446f9f4a28f4d372c03e42927637a0e13fc6d921d7535ee8cca9e059c27142980ff85ad6d7518f77008394636d3e0f6afc00251347adc8f2ef6d6939846050'
         'SKIP'
         'ab04789b59130618d4adf2631b1c51abf19d210b3a414676dd964df49e192e468cf44f6471585378c1b4b1adc5c99cc9d9b49474cbf64c05fd0d3da3cef33e3f')
-b2sums_x86_64=('4dd44e32639750bf390ae088842f38c29b2113d24065cb0096e818fe76e46747e73b9835919a0065f6cdcb63e0e4ccd5b9a4e511a8d52a8ea26b425a7b3149d8')
+b2sums_x86_64=('879d1a4e30f3ced3c86702b7c406315d794eadf1c7799c311f4ca9e3bc322d18e103bdaed2ca542817aa3cc979f00fe01ecce13d4b0a7d3cc77d57a595851a1b')
 
 # https://www.kernel.org/pub/linux/kernel/v7.x/sha256sums.asc
 

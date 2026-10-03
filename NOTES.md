@@ -24,3 +24,9 @@
 - Наложен патч `patches/0001-bore.patch` (CachyOS mainline BORE для 7.2)
 - `CONFIG_HZ_1000=y`, `CONFIG_MIN_BASE_SLICE_NS=2000000`
 - Сборка: `makepkg -s --noextract`
+
+## 2026-10-03 — Обновление до 7.2.9
+- База обновлена с 7.2.7-arch1 на 7.2.9-arch1
+- Патч BORE (0001-bore.patch от CachyOS для 7.2) применён без конфликтов
+- Конфиг обновлён через `make olddefconfig` (файл `config-7.2.9-palmarch`)
+- Проверено: сборка чистая, BORE активен
