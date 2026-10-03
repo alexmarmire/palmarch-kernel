@@ -1,8 +1,8 @@
-# linux-palmarch 7.2.7-arch1-1
+# linux-palmarch 7.2.9-arch1-1
 
 **Stock is a starting point, not a destination.**
 
-This is a custom Arch Linux kernel built for people who refuse to settle for "good enough." Based on 7.2.7-arch1, tuned for responsiveness, hardened where it matters, and powered by BORE — the Burst-Oriented Response Enhancer scheduler, built to keep your desktop alive under pressure.
+This is a custom Arch Linux kernel built for people who refuse to settle for "good enough." Based on 7.2.9-arch1, tuned for responsiveness, hardened where it matters, and powered by BORE — the Burst-Oriented Response Enhancer scheduler, built to keep your desktop alive under pressure.
 
 ## What makes it different
 
